@@ -1,0 +1,24 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "micro": "^9.3.3",
+    "mongoose": "^5.4.19",
+    "mongoose-sequence": "^5.0.1",
+    "nodemon": "^1.18.10",
+    "random-bool": "^1.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "description": ""
+}

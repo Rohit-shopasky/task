@@ -1,0 +1,37 @@
+version: "2"
+services:
+  order_app:
+    container_name: order_app
+    build: ./order_app
+    ports:
+      - "3000:3000"
+    
+    links:
+      - mongo
+    
+    volumes:
+      - ./order_app:/usr/app/
+      - /usr/app/node_modules
+    
+    command: npm start
+ 
+  payment_app:
+    container_name: payment_app
+    build: ./payment_app
+    ports:
+      - "3001:3001"
+    links:
+      - mongo
+
+    volumes:
+      - ./payment_app:/usr/app/
+      - /usr/app/node_modules
+
+    command: npm start
+   
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    
+    
