@@ -1,5 +1,5 @@
 # task
-I have used docker and contanerized entire application into 3 containers
+I have used docker and containerized entire application into 3 containers
    1) Order app
    2) Payment app
    3) Mongodb
