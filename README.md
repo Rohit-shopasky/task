@@ -36,7 +36,7 @@ If you still want to setup this app on your localhost you can follow below steps
   or
   $ docker-compose up -d
   
-  Above commands starts Order_app on port 3000 and Payment app on 30001 port. Also mongodb on port 27017. Make these ports are free
+  Above commands starts Order_app on port 3000 and Payment app on 3001 port. Also mongodb on port 27017. Make these ports are free
   
   # See logs
   If you want see docker logs of both the apps
