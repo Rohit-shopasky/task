@@ -3,22 +3,8 @@ I have used docker and contanerized entire application into 3 containers
    1) Order app
    2) Payment app
    3) Mongodb
-
-# Environment Setup
-  1) Install Docker
-  2) Install Docker compose.
- 
-  You can easily setup above environment read this link https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-  After installing docker and docker compose type below commands to run application
-  
-  $ cd task
-  $ sudo docker-compose up -d    
-  or
-  $ docker-compose up -d
-  
-  Above commands starts Order_app on port 3000 and Payment app on 30001 port. Also mongodb on port 27017. Make these ports are free
-  
-  # Important Notice
+   
+ # Important Notice
   I have already pushed entire code on AWS EC2 for your convinience.
   You need postman to check apis
   here is the postman collection url https://www.getpostman.com/collections/5f50c28d9e8708ff8109
@@ -35,5 +21,21 @@ I have used docker and contanerized entire application into 3 containers
    
    4) 13.233.184.121:3000/show_all_orders    --> GET Request
       Show all orders
+
+# Environment Setup
+  1) Install Docker
+  2) Install Docker compose.
+ 
+  You can easily setup above environment read this link https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
+  After installing docker and docker compose type below commands to run application
+  
+  $ cd task
+  $ sudo docker-compose up -d    
+  or
+  $ docker-compose up -d
+  
+  Above commands starts Order_app on port 3000 and Payment app on 30001 port. Also mongodb on port 27017. Make these ports are free
+  
+ 
       
   
