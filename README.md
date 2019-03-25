@@ -21,6 +21,7 @@ I have used docker and contanerized entire application into 3 containers
    
    4) 13.233.184.121:3000/show_all_orders    --> GET Request
       Show all orders
+If you still want to setup this app on your localhost you can follow below steps.
 
 # Environment Setup
   1) Install Docker
@@ -30,11 +31,18 @@ I have used docker and contanerized entire application into 3 containers
   After installing docker and docker compose type below commands to run application
   
   $ cd task
+  
   $ sudo docker-compose up -d    
   or
   $ docker-compose up -d
   
   Above commands starts Order_app on port 3000 and Payment app on 30001 port. Also mongodb on port 27017. Make these ports are free
+  
+  # See logs
+  If you want see docker logs of both the apps
+  1) docker logs -f payment_app
+  2) docker logs -f order_app
+  
   
  
       
