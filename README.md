@@ -29,7 +29,8 @@ If you still want to setup this app on your localhost you can follow below steps
  
   You can easily setup above environment read this link https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
   After installing docker and docker compose type below commands to run application
-  $ git clone git@github.com:Rohit-shopasky/task.git
+  
+   $ git clone git@github.com:Rohit-shopasky/task.git
   
   $ cd task
   
@@ -39,7 +40,7 @@ If you still want to setup this app on your localhost you can follow below steps
   
   $ docker-compose up -d
   
-  Above commands starts Order_app on port 3000 and Payment app on 3001 port. Also mongodb on port 27017. Make these ports are free
+  Above commands starts Order_app on port 3000 and Payment app on 3001 port. Also mongodb on port 27017. Make sure these ports are free before running application
   
   # See logs
   If you want see docker logs of both the apps
